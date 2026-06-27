@@ -2,14 +2,6 @@
 
 Unofficial Python client for the EIA Open Data API v2. polars-native, auto-paginating, and parquet cached.
 
-## Features
-
-- **Polars-native** — every fetch returns a typed `pl.DataFrame` (`df.to_pandas()` if you prefer).
-- **Invisible pagination** — EIA caps responses at 5,000 rows; eiax fetches as much as you want in parallel and returns one frame.
-- **Offline catalog** — EIA's route tree ships inside the package. `search`, `help_route`, and `facet_values` work with no API key.
-- **Parquet cache** — repeat queries with the same route/facets/range read from disk; partial coverage fetches only the missing date ranges.
-- **Typed errors** — `AuthenticationError`, `RateLimitError`, `EmptyResultError`, `UnknownSeriesError`, `EIAError`.
-
 ## Installation
 
 ```bash
