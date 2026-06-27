@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.venv
+
+# Secrets and caches
+.env
+.cache/
+.pytest_cache/
+.ruff_cache/
+
+# Test artifacts (but keep the shipped catalog data files)
+*.parquet
+!src/eiax/catalog/*.parquet
+
+docs/

@@ -1,0 +1,17 @@
+{
+  "natural-gas/move/expc": "LNG exports by vessel: use process=EVE (not ENG). Filter series containing MMCF for volumes.",
+  "natural-gas/stor/wkly": "Weekly working gas storage; filter series for Lower 48 (R48) or regional codes.",
+  "petroleum/pri/spt": "Spot prices; series RWTC=WTI, RBRTE=Brent.",
+  "petroleum/stoc/wstk": "Weekly petroleum stocks; common series WCESTUS1 (crude), WGTSTUS1 (gasoline).",
+  "petroleum/cons/psup": "Product supplied (demand proxy) by product and area.",
+  "petroleum/pnp": "Refining and processing: inputs, outputs, utilization.",
+  "petroleum/move": "Trade, pipelines, and movements between regions.",
+  "petroleum/crd": "Crude oil production and supply.",
+  "natural-gas/pri": "Natural gas prices including Henry Hub (see pri/fut).",
+  "natural-gas/prod": "Production volumes including marketed gas (prod/whv).",
+  "natural-gas/stor": "Underground storage; wkly for weekly EIA storage report.",
+  "natural-gas/cons": "Consumption by sector and end use.",
+  "natural-gas/sum": "Summary balance tables.",
+  "natural-gas/enr": "Exploration, reserves, and well data.",
+  "natural-gas/move": "Imports, exports, and interstate movements."
+}
