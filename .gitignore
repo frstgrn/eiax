@@ -21,4 +21,4 @@ wheels/
 *.parquet
 !old/src/eiax/catalog/*.parquet
 
-docs/
+docs/*
