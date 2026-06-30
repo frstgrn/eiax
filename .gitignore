@@ -12,12 +12,13 @@ wheels/
 
 # Secrets and caches
 .env
+.pypirc
 .cache/
 .pytest_cache/
 .ruff_cache/
 
-# Test artifacts (but keep the shipped catalog data files)
+# Test artifacts (but keep the shipped catalog data files in archived v1)
 *.parquet
-!src/eiax/catalog/*.parquet
+!old/src/eiax/catalog/*.parquet
 
 docs/

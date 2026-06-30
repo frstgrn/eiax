@@ -5,6 +5,10 @@ on:
     branches: [main, master]
   pull_request:
 
+defaults:
+  run:
+    working-directory: old
+
 jobs:
   test:
     runs-on: ubuntu-latest
